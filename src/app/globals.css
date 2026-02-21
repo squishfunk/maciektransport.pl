@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-space), sans-serif;
+  --font-anton: var(--font-anton), sans-serif;
+  
+  --color-brand: #FDE047; /* Yellow */
+  --color-brand-dark: #EAB308; /* Darker Yellow */
+  
+  /* Tinted darks - adding a slight yellow/warm tone to the grays to match the brand and cardboard aesthetic */
+  --color-dark: #0f0e0c; /* Warm, very dark gray */
+  --color-zinc-900: #1b1916;
+  --color-zinc-800: #292622;
+  --color-zinc-700: #423d38;
+  --color-light: #fefdfa; /* Warm white */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-family: var(--font-sans);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility font-anton {
+  font-family: var(--font-anton);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+.tape-pattern {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-brand),
+    var(--color-brand) 20px,
+    var(--color-brand-dark) 20px,
+    var(--color-brand-dark) 40px
+  );
 }
