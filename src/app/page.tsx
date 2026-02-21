@@ -13,7 +13,6 @@ export default function Home() {
       
       <footer className="bg-dark text-zinc-600 font-space text-sm py-8 text-center border-t border-zinc-900">
         <p>&copy; {new Date().getFullYear()} Przeprowadzki Maciek Białystok. Wszelkie prawa zastrzeżone.</p>
-        <p className="mt-2 text-xs">Projekt zrealizowany na potrzeby wizytówki z OLX.</p>
       </footer>
     </main>
   );
