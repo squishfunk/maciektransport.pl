@@ -6,22 +6,22 @@ import { Check, ArrowRight } from "lucide-react";
 
 export function Services() {
   const items = [
-    "Meble i kanapy",
-    "Sprzęt AGD/RTV",
-    "Materiały budowlane",
-    "Motocykle i rowery",
-    "Rzeczy w workach i kartonach",
-    "Rośliny ogrodowe",
-    "Montaż i demontaż mebli",
-    "Opróżnianie mieszkań"
+    "Przeprowadzki mieszkań, domów i biur",
+    "Transport mebli i AGD",
+    "Opróżnianie piwnic, strychów, garaży",
+    "Sprzątanie podwórek i działek",
+    "Wywóz starych mebli i rzeczy",
+    "Wynoszenie gruzu i pomoc przy remontach",
+    "Składanie i demontaż mebli",
+    "Drobne prace fizyczne"
   ];
 
-  const stores = "CASTORAMA • LEROY MERLIN • AGATA MEBLE • IKEA • OLX • ALLEGRO • BRW";
+  const stores = "PRZEPROWADZKI • TRANSPORT • SPRZĄTANIE • WYWÓZ • GRUZ • REMONTY • PRACE FIZYCZNE";
 
   return (
     <section className="bg-light text-dark py-24 relative overflow-hidden">
       <div className="absolute top-0 w-full rotate-2 origin-left -mt-8 z-10">
-        <Tape text="PRZYWOZIMY Z MARKETÓW" className="bg-dark text-light border-y-brand" />
+        <Tape text="PODEJMUJEMY SIĘ WSZYSTKIEGO" className="bg-dark text-light border-y-brand" />
       </div>
       
       <div className="absolute top-12 w-full -rotate-1 origin-right z-0">
@@ -31,27 +31,27 @@ export function Services() {
       <div className="max-w-7xl mx-auto px-4 mt-32 grid md:grid-cols-2 gap-16 items-start">
         <div>
           <h2 className="text-6xl md:text-8xl font-anton uppercase mb-8 leading-[0.9]">
-            CO <br />
-            <span className="text-zinc-500">WOZIMY?</span>
+            CZYM SIĘ <br />
+            <span className="text-zinc-500">ZAJMUJEMY?</span>
           </h2>
           <p className="text-xl text-zinc-600 mb-8 max-w-md font-medium">
-            Wszystko, co zmieści się do busa i da się udźwignąć. Pomagamy we wnoszeniu, znoszeniu i składaniu mebli.
+            Jeśli da się zrobić busem i siłą rąk — podejmiemy się zadania. Masz nietypowe zlecenie? Nie ma problemu.
           </p>
           
           <div className="bg-dark text-light p-8 rotate-1 shadow-[8px_8px_0px_#FDE047]">
-            <h3 className="font-anton text-3xl mb-4 text-brand">OPCJE USŁUGI</h3>
+            <h3 className="font-anton text-3xl mb-4 text-brand">DLACZEGO MY?</h3>
             <ul className="space-y-4 font-space text-lg">
               <li className="flex gap-4 items-center">
                 <ArrowRight className="text-brand shrink-0" />
-                <span>Sam transport</span>
+                <span>Działamy 24h / 7 dni w tygodniu</span>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRight className="text-brand shrink-0" />
-                <span>Transport + pomoc kierowcy w noszeniu</span>
+                <span>Szybkie terminy, uczciwa wycena</span>
               </li>
               <li className="flex gap-4 items-center">
                 <ArrowRight className="text-brand shrink-0" />
-                <span>Wynajem busa z kierowcą</span>
+                <span>Elastyczne podejście — zawsze można się dogadać</span>
               </li>
             </ul>
           </div>

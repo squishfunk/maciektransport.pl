@@ -15,25 +15,25 @@ export function CTA() {
         transition={{ duration: 0.6 }}
         className="relative z-10 text-center flex flex-col items-center max-w-4xl"
       >
-        <p className="font-anton text-brand text-2xl tracking-widest uppercase mb-4 transform -rotate-2">Masz coś do przewiezienia?</p>
+        <p className="font-anton text-brand text-2xl tracking-widest uppercase mb-4 transform -rotate-2">Potrzebujesz pomocy „na już"?</p>
         <h2 className="text-7xl md:text-[8rem] font-anton leading-[0.8] tracking-tighter uppercase mb-16 text-light drop-shadow-lg">
           ZADZWOŃ <br />
-          DO MAĆKA
+          DO KAMILA
         </h2>
         
         <motion.a 
-          href="tel:660000055"
+          href="tel:502558034"
           whileHover={{ scale: 1.05, rotate: 2 }}
           whileTap={{ scale: 0.95 }}
           className="group relative flex items-center justify-center gap-6 bg-brand text-dark px-10 py-6 text-4xl md:text-7xl font-anton border-4 border-dark transition-all shadow-[8px_8px_0px_#FAFAFA] hover:shadow-[16px_16px_0px_#FAFAFA] hover:-translate-y-2 hover:-translate-x-2"
         >
           <PhoneCall size={56} className="group-hover:animate-pulse" strokeWidth={3} />
-          <span>660 000 055</span>
+          <span>502 558 034</span>
         </motion.a>
         
         <p className="mt-16 text-zinc-400 font-space text-lg max-w-lg mx-auto font-medium">
-          Działamy głównie na terenie Białegostoku (Starosielce i okolice), 
-          ale obsługujemy też przeprowadzki międzymiastowe i krajowe.
+          Działamy na terenie całego Podlasia — Białystok i okolice. 
+          Zadzwoń, dogadamy się. Szybka wycena, uczciwe ceny.
         </p>
       </motion.div>
     </section>

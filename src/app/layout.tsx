@@ -14,8 +14,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "PRZEPROWADZKI TANIO BIAŁYSTOK | SZYBKO, PEWNIE, TANIO",
-  description: "Transport do 1.5 t dostępny od ręki! 7 dni w tygodniu. Meble, AGD/RTV, materiały budowlane. Przeprowadzki domów, biur, taxi bagażowe. Zadzwoń: 660 000 055",
+  title: "USŁUGI BUSEM 24/7 PODLASKIE | PRZEPROWADZKI, TRANSPORT, SPRZĄTANIE",
+  description: "Usługi busem 24/7 — od wszystkiego! Przeprowadzki, transport mebli i AGD, opróżnianie piwnic, sprzątanie, wywóz rzeczy, gruz. Całe Podlaskie. Zadzwoń: 502 558 034",
 };
 
 export default function RootLayout({

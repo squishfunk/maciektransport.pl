@@ -12,7 +12,7 @@ export default function Home() {
       <CTA />
       
       <footer className="bg-dark text-zinc-600 font-space text-sm py-8 text-center border-t border-zinc-900">
-        <p>&copy; {new Date().getFullYear()} Przeprowadzki Maciek Białystok. Wszelkie prawa zastrzeżone.</p>
+        <p>&copy; {new Date().getFullYear()} Usługi Busem Kamil — Całe Podlaskie. Wszelkie prawa zastrzeżone.</p>
       </footer>
     </main>
   );

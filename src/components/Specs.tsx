@@ -12,7 +12,7 @@ export function Specs() {
             BUSA
           </h2>
           <p className="text-2xl font-space font-semibold max-w-sm border-l-8 border-dark pl-6">
-            Zmieści się wszystko z Castoramy, Ikei i meble z OLX.
+            Zmieści się wszystko — meble, AGD, materiały budowlane i więcej.
           </p>
         </div>
         
